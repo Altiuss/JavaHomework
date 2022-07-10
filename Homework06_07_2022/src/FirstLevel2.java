@@ -7,7 +7,7 @@ public class FirstLevel2 {
         Scanner sc = new Scanner(System.in);
         int[][] table = {{5, 6, 7}, {-7, -8, 9}, {11, 45, 71}};
         int n = sc.nextInt();
-        if (n >= table.length-1 ) {
+        if ( n < 0  || n > table.length - 1) {
 
 
              System.out.println("The number you entered is outside the bounds of the array");
